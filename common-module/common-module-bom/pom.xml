@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <groupId>com.envelope</groupId>
+    <artifactId>common-module-bom</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+
+    <description>
+        common依赖项
+    </description>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- 核心模块 -->
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- 接口模块 -->
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>comon-module-doc</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- 安全模块 -->
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-security</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-satoken</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- 日志记录 -->
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-log</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- 字典 -->
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-dict</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- excel -->
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-excel</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- 缓存服务 -->
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-redis</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- web服务 -->
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- 数据库服务 -->
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-mybatis</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-job</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-dubbo</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-seata</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-idempotent</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+
+
+
+
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-logstash</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-sentinel</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-skylog</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+
+
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-translation</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.envelope</groupId>
+                <artifactId>common-module-encrypt</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>

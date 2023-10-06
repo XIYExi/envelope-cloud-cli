@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for Envelope-Cloud-Cli" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/2.7.13/spring-boot-configuration-processor-2.7.13.jar" />
+        </processorPath>
+        <module name="common-module-web" />
+        <module name="common-module-logstash" />
+        <module name="common-module-satoken" />
+        <module name="common-module-encrypt" />
+        <module name="common-module-doc" />
+        <module name="common-module-job" />
+        <module name="common-module-idempotent" />
+        <module name="common-module-skylog" />
+        <module name="api-module-resource" />
+        <module name="common-module-seata" />
+        <module name="common-module-excel" />
+        <module name="common-module-log" />
+        <module name="common-module-prometheus" />
+        <module name="common-module-sentinel" />
+        <module name="common-module-translation" />
+        <module name="common-module-core" />
+        <module name="api-module-system" />
+        <module name="gateway-server" />
+        <module name="common-module-dubbo" />
+        <module name="common-module-security" />
+        <module name="common-module-mybatis" />
+        <module name="common-module-dict" />
+        <module name="common-module-redis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-api" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

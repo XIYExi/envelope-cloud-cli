@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud-cli</artifactId>
+        <groupId>com.envelope</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>common-module</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+    <modules>
+        <module>common-module-alibaba-bom</module>
+        <module>common-module-core</module>
+        <module>common-module-doc</module>
+        <module>common-module-dubbo</module>
+        <module>common-module-encrypt</module>
+        <module>common-module-excel</module>
+        <module>common-module-idempotent</module>
+        <module>common-module-redis</module>
+        <module>common-module-job</module>
+        <module>common-module-log</module>
+        <module>common-module-security</module>
+        <module>common-module-satoken</module>
+        <module>common-module-logstash</module>
+        <module>common-module-mybatis</module>
+        <module>common-module-prometheus</module>
+        <module>common-module-seata</module>
+        <module>common-module-sentinel</module>
+        <module>common-module-skylog</module>
+        <module>common-module-translation</module>
+        <module>common-module-dict</module>
+        <module>common-module-web</module>
+        <module>common-module-bom</module>
+    </modules>
+
+
+</project>

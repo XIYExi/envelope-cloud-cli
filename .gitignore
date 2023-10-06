@@ -1,0 +1,24 @@
+# Project exclude paths
+/api-module/api-module-resource/target/
+/api-module/api-module-system/target/
+/common-module/common-module-core/target/
+/common-module/common-module-dict/target/
+/common-module/common-module-doc/target/
+/common-module/common-module-dubbo/target/
+/common-module/common-module-encrypt/target/
+/common-module/common-module-excel/target/
+/common-module/common-module-idempotent/target/
+/common-module/common-module-job/target/
+/common-module/common-module-log/target/
+/common-module/common-module-logstash/target/
+/common-module/common-module-mybatis/target/
+/common-module/common-module-prometheus/target/
+/common-module/common-module-redis/target/
+/common-module/common-module-satoken/target/
+/common-module/common-module-seata/target/
+/common-module/common-module-security/target/
+/common-module/common-module-sentinel/target/
+/common-module/common-module-skylog/target/
+/common-module/common-module-translation/target/
+/common-module/common-module-web/target/
+/gateway-server/target/
